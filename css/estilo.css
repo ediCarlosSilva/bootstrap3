@@ -14,3 +14,7 @@
 /*div {
     border: 1px solid black;
 }*/
+
+.bg-color-padding p {
+    padding: 15px;
+}
