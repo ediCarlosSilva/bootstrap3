@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>curso bootstrap</title>
+    <!-- Define a viewport -->
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+
+    <!-- adicionar css bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- css personalizado -->
+    <link href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Tabs</h1>
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#">titulo do link</a></li>
+                    <li><a href="#">titulo do link</a></li>
+                    <li><a href="#">titulo do link</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Título do menu <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">teste 1</a></li>
+                            <li><a href="#">teste 2</a></li>
+                            <li><a href="#">teste 3</a></li>
+                            <li><a href="#">teste 4</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+
+                <h2>justified</h2>
+
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="active"><a href="#">Título do link</a></li>
+                    <li><a href="#">Título do link</a></li>
+                    <li><a href="#">Título do link</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col-xs-12">
+                <h1>Pills</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
