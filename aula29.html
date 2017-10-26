@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>curso bootstrap</title>
+    <!-- Define a viewport -->
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+
+    <!-- adicionar css bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- css personalizado -->
+    <link href="css/estilo.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="page-header ">
+                    <h1>Single Toggle</h1>
+                </div>
+
+                <button type="button" class="btn btn-primary" data-toggle="button">Single Toggle 1</button>
+                <button type="button" class="btn btn-danger" data-toggle="button">Single Toggle 2</button>
+
+                <button type="button" id="troca-estado" data-loading-text="carregando..." class="btn btn-primary btnjs">carregar algo</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>checkbox</h1>
+                </div>
+
+                <div class="btn-group" data-toggle="buttons">
+                    <label for="" class="btn btn-primary active btnjs">
+                        <input type="checkbox" checked>Opção 1
+                    </label>
+
+                    <label for="" class="btn btn-primary">
+                        <input type="checkbox">Opção 2
+                    </label>
+
+                    <label for="" class="btn btn-primary btnjs">
+                        <input type="checkbox">Opção 3
+                    </label>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>RadioGroup</h1>
+                </div>
+            </div>
+            <div class="col-xs-12">
+
+                <div class="btn-group" data-toggle="buttons">
+                    <label for="" class="btn btn-primary active btnjs">
+                                                <input type="radio" name="rdGroup1" id="rdGroup1" checked>Produtos
+                                            </label>
+                    <label for="" class="btn btn-primary active btnjs">
+                                                    <input type="radio" name="rdGroup1" id="rdGroup2" checked>Pedidos
+                                            </label>
+                    <label for="" class="btn btn-primary active btnjs">
+                                                    <input type="radio" name="rdGroup1" id="rdGroup3" checked>Histórico
+                                            </label>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
